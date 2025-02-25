@@ -1,0 +1,102 @@
+:root {
+    --main-color: hsl(47, 88%, 63%);
+    --white-color: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+    --blue-footer: hsl(228, 45%, 44%);
+    --font-size-body: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--main-color);
+    color: var(--gray-950);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", serif;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .card {
+    background-color: var(--white-color);
+
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid var(--gray-950);
+    box-shadow: 6px 6px 0 var(--gray-950);
+}
+
+.tag_card {
+    background-color: var(--main-color);
+    padding: 5px 10px;
+    font-weight: 800;
+    border-radius: 3px;
+}
+
+.date_card {
+}
+
+.title_card {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.text_card {
+    line-height: 1.4;
+    color: var(--gray-500);
+}
+
+.user_card {
+    display: flex;
+    align-items: center;
+}
+
+.user_card img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.user_card p {
+    color: var(--gray-950);
+    font-weight: 800;
+}
+
+
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--blue-footer);
+}
