@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Gab-off/FrontEnd-Blog_preview_card](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://gab-off.github.io/FrontEnd-Blog_preview_card/](https://your-live-site-url.com)
 
 ## My process
 
@@ -45,6 +45,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [http://frontendmentor.io/profile/Gab-off](https://www.frontendmentor.io/profile/yourusername)
