@@ -47,7 +47,7 @@ img {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
-    width: 320px;
+    width: 340px;
     padding: 20px;
     border-radius: 15px;
     border: 1px solid var(--gray-950);
@@ -93,6 +93,7 @@ img {
 
 /* Footer */
 .attribution {
+    margin: 10px 0;
     font-size: 11px;
     text-align: center;
 }
